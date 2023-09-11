@@ -1,0 +1,17 @@
+ALGORITHM siwp
+VAR
+    i,j,,val:=INTEGER
+BEGIN
+    for i from 1 to length-1 step1
+  val=T[i]
+   j:=i-i
+
+   WHILE (j>0 and T[j]>val]) DO
+   T[j]:=val
+   t[j+1] =t[j]
+   j:=j-1
+END_FOR
+   END_WHILE
+   for i from 0 to length-1 step1
+   whrite [t[i]]
+END
